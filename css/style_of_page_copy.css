@@ -1,0 +1,85 @@
+/* Container head of the page */
+.container-fluid {
+    /* background: linear-gradient(red, blue, white); */
+    background-color: blue;
+    /* background-image: url(/images/clinick.jpg);  */
+    height: 900px; 
+    display: flex;
+    flex-direction: column;
+}
+/* navbar properties */
+.navbar {
+    width: 1200px;
+    height: 90px;
+    margin: auto; 
+    margin-top: 40px; 
+    border-radius: 10px;
+}
+/* Phrase in the container */
+.container-fluid h1{font-size: 70px; color: white; margin-left: 300px; margin-bottom: 15px; font-family: 'Lora', serif; z-index: 1;} 
+.container-fluid h4{font-size: 35px; color: white; margin-left: 300px; font-family: 'Lora', serif;}
+.container-fluid .head{color: white; width: 400px; font-size: 20px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 300px; margin-bottom: 150px;
+}
+/* Media for phrase and navbar parameters when page decreasing */
+@media (max-width: 650px) {.navbar {width: 300px;}}
+@media (min-width: 650px) and (max-width: 1200px) {.navbar {width: 600px;}}
+@media(min-width: 500px) and (max-width: 1000px) { 
+    .container-fluid .head {margin-left: auto; margin-right: auto;}
+    .container-fluid h4 {margin-left: auto; margin-right: auto;}
+    .container-fluid h1 {margin-left: auto; margin-right: auto;}
+}
+@media (max-width: 500px) {
+    .container-fluid .head {margin-left: 0;}
+    .container-fluid h4 {margin-left: 0;}
+    .container-fluid h1 {margin-left: 0;}
+}
+/* Brand of the  clinick*/
+.brand {font-family: 'Pacifico', cursive; color: violet; font-size: 30px;}
+
+.nav-link span {font-size: 20px; color: rgba(10, 20, 255, 1); font-family: 'Baloo Paaji 2', cursive;}
+.nav-link span::after {content: ''; display: block; width: 0; height: 2px; background: violet; transition: width .3s;}
+.nav-link span:hover::after {width: 100%; transition: width .8s;} 
+.nav-link span:hover {color: violet;}
+@media (max-width: 1000px) {.nav-link span{color: black;}}
+/* <span class="badge badge-success ml-1">12</span></a> */
+
+
+/* Some picture for the container and pretty appearance */
+/* If screen less than 100rem display nothing */
+@media (max-width: 100rem) {.circle, .star, .cloud, .black {display: none;}}
+/* Circle */
+.circle .c1{transform: translate(1000px, -400px); animation: c1 2s infinite;}
+.circle .c2{transform: translate(1600px, 0); animation: c2 2s infinite;}
+@keyframes c1 {50% {transform: translate(1000px, -420px); }} 
+@keyframes c2 {50% {transform: translate(1620px, 0px);}}
+/* Star */
+.star .first {transform: translate(20px, -400px); animation: star 10s infinite linear;}
+@keyframes star {100% {transform: translate(20px, -400px) rotate(360deg);}}
+/* Small stars */
+.star .sec {transform: translate(240px, -350px); animation: sec 3s infinite linear;}
+.star .third {transform: translate(780px, -350px); animation: third 3s infinite;}
+@keyframes sec {50% {transform: translate(240px, -350px) rotate(360deg) scale(.7, .7);}}
+@keyframes third {50% {transform: translate(780px, -350px) rotate(360deg) scale(.7, .7);}}
+/* cloud */
+.cloud .cl1 {transform: translate(-100px, -800px); animation: cl1 40s infinite linear;}
+.cloud .cl2 {transform: translate(110rem, -100px); animation: cl2 40s infinite linear;}
+.cloud .cl3 {transform: translate(-100px, -400px); animation: cl3 40s infinite linear;}
+@keyframes cl1 {100%{transform: translate(110rem, -800px);}}
+@keyframes cl2 {100%{transform: translate(-100px, -100px);}} 
+@keyframes cl3 {100%{transform: translate(110rem, -400px);}}
+/* black circle */
+.black .b1 {transform: translate(100rem, -700px); animation: b1 3s infinite;}
+.black .b2 {transform: translate(20px, 0); animation: b2 3s infinite;}
+@keyframes b1 {50%{transform: translate(100rem, -680px);}}
+@keyframes b2 {50%{transform: translate(0px, 0);}}
+
+
+
+
+
+
+
+
+
