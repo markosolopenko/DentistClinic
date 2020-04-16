@@ -91,6 +91,7 @@
 /* .adress {background-color: white; margin-top: 10px; width: 200px;} */
 /* adress */
 #contacts {height: 200px;}
+@media (max-width: 700px) {#contacts {height: 400px;}}
 .adress, .phone, .email {display: flex; margin-top: 20px;}
 .adress-icon {
     color: rgba(223, 186, 18, 0.8);
