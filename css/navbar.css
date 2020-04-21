@@ -1,0 +1,40 @@
+div.container-fluid {
+    background-image: url(/images/clinick.jpg);
+    height: 800px;
+}
+.navbar {
+    height: 200px;
+    margin: 0 -15px;
+    background-color: #41418c;
+    height: 60px;
+}
+.a {
+    font-size: 15px;
+    color: rgba(255, 246, 246, 0.8);
+}
+.a:hover {
+    color: white;
+}
+#navbar_content {
+    color: rgba(255, 246, 246, 0.8);
+    margin-top: 7px;
+}
+#navbar_content:hover {
+    color: white;
+} 
+#button {
+    border: 1px solid burlywood;
+    background-color: #41418c;
+    color: burlywood;
+}
+#button:hover {
+    background-color: burlywood;
+    color: #41418c;
+}
+.a-left {
+    color: rgba(255, 246, 246, 0.8);
+    margin-top: 7px;
+}
+.a-left:hover {
+    color: white;
+}

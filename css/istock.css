@@ -1,0 +1,90 @@
+/*  Style of navbar */
+.content li{
+    display: inline-block;}
+.content a {
+    color: rgba(255, 255, 255, 0.7); 
+    font-weight: bold; 
+    padding-right: 20px;
+}
+.content a:hover {
+    color: seagreen; 
+    text-decoration: none;
+}
+.content {
+    text-align: left; 
+    padding-left: 0; 
+    padding-top: 10px;
+}
+.login li {
+    display: inline-block;   
+}
+.login {
+    text-align: right; 
+    padding-top: 10px;
+}
+.login a {
+    padding-left: 20px; 
+    color: white; 
+    font-weight: bold;
+}
+a.button:hover {background-color: rgba(0, 255, 85, 0.1);}
+
+div.navbar {
+        background-color: rgba(0, 0, 0, 1);
+        margin: 0 -15px;
+}
+header {background-image: url(/images/clinick.jpg); height: 900px;}
+div.container-fluid {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 900px;
+}
+.logo {
+    text-align: center;}
+.logo h2 {padding-top: 10px; font-weight: bold; font-size: 40px; color: white;}
+.logo p {margin-top: -15px; text-align: center; color: white;}
+
+li span{color: rgb(255, 255, 255);}
+.clone {color: white; margin-right: -20px;}
+
+
+
+
+ /*****************************************/
+ /**************Search block***************/
+ /*****************************************/
+div.search-system {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 267px;
+    height: 70px;
+}
+.form-btn {
+    margin-top: 16px;
+    text-align: center;
+    width: 200px;
+}
+a i {
+    color: black;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.menu-search a {
+    text-align: center;
+}
+.menu-search a:hover {
+    color: seagreen;
+    background-color: white;
+}
+p.some-text {
+    color: white;
+    float: right;
+    margin-top: 300px;
+}
+div.foot {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 40px;
+}
+
