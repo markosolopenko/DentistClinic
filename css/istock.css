@@ -33,7 +33,7 @@ div.navbar {
         background-color: rgba(0, 0, 0, 1);
         margin: 0 -15px;
 }
-header {background-image: url(/images/clinick.jpg); height: 900px;}
+header {background-image: url(../images/clinick.jpg); height: 900px;}
 div.container-fluid {
     background-color: rgba(0, 0, 0, 0.5);
     height: 900px;
